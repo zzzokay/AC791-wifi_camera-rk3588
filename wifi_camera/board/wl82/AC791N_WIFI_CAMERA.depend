@@ -1,0 +1,3805 @@
+# depslib dependency file v1.0
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\debug.c
+	"system/includes.h"
+	"asm/debug.h"
+	"asm/p33.h"
+	"asm/clock.h"
+	"asm/crc16.h"
+	"asm/power_interface.h"
+	"asm/sfc_norflash_api.h"
+	"asm/system_reset_reason.h"
+	"system/boot.h"
+	"app_config.h"
+	"fs/fs.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\includes.h
+	"generic/includes.h"
+	"init.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"sys_time.h"
+	"wait.h"
+	"malloc.h"
+	"app_core.h"
+	"app_msg.h"
+	"bank_switch.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"debug_lite.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\errno-base.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\cpu.h
+	"WL82.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\wl82.h
+	"csfr.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\csfr.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\irq.h
+	"asm/hwi.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\hwi.h
+	"generic/typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\printf.h
+	<stdarg.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\log.h
+	"generic/typedef.h"
+	"generic/printf.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\string.h
+	<__config>
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\__config
+	<features.h>
+	<sys/endian.h>
+	<osreldate.h>
+	<sys/endian.h>
+	<winapifamily.h>
+	<sys/isa_defs.h>
+	<endian.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\strings.h
+	"_ansi.h"
+	<sys/reent.h>
+	<sys/types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\_ansi.h
+	<newlib.h>
+	<sys/config.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\newlib.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\config.h
+	<machine/ieeefp.h>
+	<sys/features.h>
+	<cygwin/config.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\machine\ieeefp.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\features.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\reent.h
+	<_ansi.h>
+	<stddef.h>
+	<sys/_types.h>
+	<sys/types.h>
+	<sys/custom_file.h>
+	<assert.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\stddef.h
+	<__config>
+	<__nullptr>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\__nullptr
+	<__config>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\_types.h
+	<machine/_types.h>
+	<sys/lock.h>
+	<stddef.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\machine\_types.h
+	<machine/_default_types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\machine\_default_types.h
+	<sys/features.h>
+	<limits.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\limits.h
+	<__config>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\lock.h
+	<_ansi.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\types.h
+	<_ansi.h>
+	<sys/cdefs.h>
+	<machine/_types.h>
+	<sys/_types.h>
+	<sys/_stdint.h>
+	<stddef.h>
+	<machine/types.h>
+	<sys/features.h>
+	<sys/sched.h>
+	<sys/cpuset.h>
+	<cygwin/types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\cdefs.h
+	<machine/_default_types.h>
+	<sys/features.h>
+	<stddef.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\_stdint.h
+	<machine/_default_types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\machine\types.h
+	<machine/_types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\sched.h
+	<sys/_timespec.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\_timespec.h
+	<machine/types.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\custom_file.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\assert.h
+	"_ansi.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\malloc.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\ioctl.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\jiffies.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\list.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\version.h
+	"typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\spinlock.h
+	"generic/typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\generic\debug_lite.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\init.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\task.h
+	"os/os_api.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"generic/jiffies.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\os_error.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\os_type.h
+	<os/ucos_ii.h>
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+	"FreeRTOS/task.h"
+	"FreeRTOS/event_groups.h"
+	"generic/list.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\ucos_ii.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_cfg.h"
+	"os/os_api.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"generic/printf.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\stdint.h
+	<__config>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\projdefs.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\mpu_wrappers.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\reent.h
+	<sys/reent.h>
+	<sys/_types.h>
+	<machine/types.h>
+	<stddef.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\queue.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\task.h
+	"list.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\list.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\event_groups.h
+	"timers.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\os\freertos\timers.h
+	"task.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\timer.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"system/spinlock.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\sys_time.h
+	"generic/typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\wait.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\app_core.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"utils/event/event.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\event.h
+	"generic/typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\app_msg.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\bank_switch.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\debug.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\p33.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\clock.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\crc16.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\power_interface.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\sfc_norflash_api.h
+	"typedef.h"
+	"asm/cpu.h"
+	"device/device.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\ioctl_cmds.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\system_reset_reason.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\boot.h
+	"asm/cpu.h"
+
+1774675112 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\app_config.h
+	"board_config.h"
+	"usb_std_class_def.h"
+	"usb_common_def.h"
+	"video_buf_config.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_config.h
+	"board_7911B_cfg.h"
+	"board_7912A_cfg.h"
+	"board_7913A_cfg.h"
+	"board_7915A_cfg.h"
+	"board_7915B_cfg.h"
+	"board_7916A_cfg.h"
+	"board_dev_kit_cfg.h"
+	"board_develop_cfg.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7911b_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7912a_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7913a_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7915a_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7915b_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_7916a_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_dev_kit_cfg.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_develop_cfg.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_std_class_def.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_common_def.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\video_buf_config.h
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\fs\sdfile.h
+	"typedef.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\iic.c
+	"asm/includes.h"
+	"device/gpio.h"
+	"device/iic.h"
+	"system/includes.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\includes.h
+	"audio.h"
+	"adc_api.h"
+	"cache.h"
+	"cpu.h"
+	"dma.h"
+	"debug.h"
+	"gpio.h"
+	"hwi.h"
+	"iic.h"
+	"irq.h"
+	"lock.h"
+	"sdmmc.h"
+	"spiflash.h"
+	"startup.h"
+	"uart.h"
+	"imc.h"
+	"isc.h"
+	"rtc.h"
+	"clock.h"
+	"crc16.h"
+	"spi.h"
+	"imd.h"
+	"imr.h"
+	"image_enc.h"
+	"jpeg_codec.h"
+	"jpeg_encoder.h"
+	"imb_driver.h"
+	"uvc_device.h"
+	"bus_device.h"
+	"video/video.h"
+	"pap.h"
+	"emi.h"
+	"power_interface.h"
+	"p33.h"
+	"pwm.h"
+	"pwm_led.h"
+	"wdt.h"
+	"jpeg_decoder.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\audio.h
+	"typedef.h"
+	"asm/ladc.h"
+	"asm/dac.h"
+	"asm/iis.h"
+	"asm/plnk.h"
+	"asm/src.h"
+	"asm/spdif.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\ladc.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\dac.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\iis.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\plnk.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\src.h
+	"typedef.h"
+	"generic/circular_buf.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\spdif.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\adc_api.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\cache.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\dma.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\gpio.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\iic.h
+	"typedef.h"
+	"asm/cpu.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\lock.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\sdmmc.h
+	"device/device.h"
+	"sdio/sdmmc.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\sdio\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+	"generic/list.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\startup.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\uart.h
+	"generic/typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\imc.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\isc.h
+	"gpio.h"
+	"fs/fs.h"
+	"spinlock.h"
+	"asm/isp_dev.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\isp_dev.h
+	"cpu.h"
+	"ioctl.h"
+	"typedef.h"
+	"device_drive.h"
+	"errno-base.h"
+	"asm/isp_alg.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\simple_pthread\pthread.h
+	"simple_pthread_comm.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\simple_pthread\simple_pthread_comm.h
+	<stdint.h>
+	<time.h>
+	"FreeRTOS/FreeRTOS.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\time.h
+	"_ansi.h"
+	<sys/reent.h>
+	<stddef.h>
+	<machine/time.h>
+	<sys/types.h>
+	<sys/timespec.h>
+	<sys/features.h>
+	<cygwin/time.h>
+	<signal.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\machine\time.h
+	<sys/_timespec.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\timespec.h
+	<sys/cdefs.h>
+	<sys/_timespec.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\signal.h
+	"_ansi.h"
+	<sys/signal.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\signal.h
+	"_ansi.h"
+	<sys/cdefs.h>
+	<sys/features.h>
+	<sys/types.h>
+	<sys/_timespec.h>
+	<cygwin/signal.h>
+	<sys/ucontext.h>
+	<signal.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\isp_alg.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\rtc.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/sys_time.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\imd.h
+	"typedef.h"
+	"video/fb.h"
+	"asm/imr.h"
+	"device/device.h"
+	"asm/port_waked_up.h"
+	"os/os_api.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\fb.h
+	"typedef.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/spinlock.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\imr.h
+	"typedef.h"
+	"device/device.h"
+	"ioctl.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\port_waked_up.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\image_enc.h
+	"video/video.h"
+	"asm/jpeg_codec.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\video.h
+	"video/video_ioctl.h"
+	"device/device.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\video_ioctl.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/lbuf.h"
+	"system/task.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\jpeg_codec.h
+	"typedef.h"
+	"video/video.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\jpeg_encoder.h
+	"typedef.h"
+	"jpeg_codec.h"
+	"asm/jpeg_abr.h"
+	"video/video.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\jpeg_abr.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\imb_driver.h
+	"video/fb.h"
+	"typedef.h"
+	"asm/imd.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\uvc_device.h
+	"video/video.h"
+	"video/camera.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\camera.h
+	"device/device.h"
+	"asm/isp_dev.h"
+	"video/video.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\bus_device.h
+	"typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\pap.h
+	"typedef.h"
+	"asm/cpu.h"
+	"os/os_api.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\emi.h
+	"device.h"
+	"generic/typedef.h"
+	"generic/list.h"
+	"device/gpio.h"
+	"generic/atomic.h"
+	"generic/ioctl.h"
+	"device/ioctl_cmds.h"
+	"os/os_api.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\gpio.h
+	"asm/gpio.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\pwm.h
+	"includes.h"
+	"device/device.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\pwm_led.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\wdt.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\jpeg_decoder.h
+	"typedef.h"
+	"spinlock.h"
+	"jpeg_codec.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\iic.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+	"asm/iic.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\key\adc_api.c
+	"generic/typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"system/timer.h"
+	"asm/efuse.h"
+	"asm/p33.h"
+	"asm/power_interface.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\efuse.h
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\key\ctmu.c
+	"device/gpio.h"
+	"key/key_driver.h"
+	"key/ctmu_key.h"
+	"key/touch_key.h"
+	"asm/ctmu.h"
+	"app_config.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\key_driver.h
+	"generic/typedef.h"
+	"event/key_event.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\key_event.h
+	"event/event.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\ctmu_key.h
+	"generic/typedef.h"
+	"touch_key.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\touch_key.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\ctmu.h
+	"generic/typedef.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\key\irflt.c
+	"key/key_driver.h"
+	"device/gpio.h"
+	"system/timer.h"
+	"asm/clock.h"
+	"app_config.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\key\plcnt.c
+	"asm/plcnt.h"
+	"device/gpio.h"
+	"key/key_driver.h"
+	"key/touch_key.h"
+	"system/timer.h"
+	"app_config.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\plcnt.h
+	"generic/typedef.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\key\rdec.c
+	"key/key_driver.h"
+	"device/gpio.h"
+	"asm/rdec.h"
+	"app_config.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\rdec.h
+	"generic/typedef.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\port_waked_up.c
+	"asm/includes.h"
+	"device/gpio.h"
+	"system/includes.h"
+
+1774430159 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\cpu\wl82\setup.c
+	"app_config.h"
+	"asm/includes.h"
+	"system/includes.h"
+	"asm/system_reset_reason.h"
+
+1774430163 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\version.z.s
+
+1774430163 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\version.z.s
+
+1774430164 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\version.z.s
+
+1774430165 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\media\version.z.s
+
+1774430165 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\version.z.s
+
+1774430169 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\version.z.s
+
+1774430169 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\version.z.s
+
+1774430169 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\version.z.s
+
+1774430169 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\version.z.s
+
+1774430170 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\lib\net\version.z.s
+
+1774430180 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\lib\server\version.z.s
+
+1774430180 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\lib\utils\version.z.s
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\audio_music\audio_config.c
+	"app_config.h"
+	"init.h"
+	"os/os_api.h"
+	"device/uart.h"
+	"eq/eq_func_define.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\media\eq\eq_func_define.h
+	"generic/typedef.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\audio_music\usb_audio_api.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+	"server/usb_syn_api.h"
+	"video/video_ioctl.h"
+	"event/device_event.h"
+	"app_config.h"
+	"device/usb_stack.h"
+	"device/uac_stream.h"
+	"host/audio.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\audio_server.h
+	"fs/fs.h"
+	"server/audio_dev.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\audio_dev.h
+	"generic/list.h"
+	"typedef.h"
+	"device/device.h"
+	"generic/circular_buf.h"
+	"os/os_api.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\usb_syn_api.h
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\device_event.h
+	"event/event.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\usb_stack.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"usb/otg.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\usb.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\ch9.h
+	"typedef.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\usb_phy.h
+	"typedef.h"
+	"asm/usb.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\otg.h
+	"asm/usb.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\uac_stream.h
+	"typedef.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\audio.h
+	"system/task.h"
+	"device/device.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+	"usb/device/uac_audio.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_bulk_transfer.h
+	"typedef.h"
+	"device/device.h"
+	"asm/usb.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\host\usb_host.h
+	"system/task.h"
+	"device/device.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\uac_audio.h
+	"asm/usb.h"
+	"usb/device/usb_stack.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd20a6\byd20a6.c
+	"device/iic.h"
+	"asm/isp_dev.h"
+	"byd20a6.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd20a6\byd20a6.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd30a2\byd30a2.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"byd30a2.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd30a2\byd30a2.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3720\byd3720.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"byd3720.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3720\byd3720.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3901\byd3901.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"byd3901.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3901\byd3901.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3a03\byd3a03.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"byd3a03.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\byd3a03\byd3a03.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0307_dvp\gc0307.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0307.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0307_dvp\gc0307.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0308_dvp\gc0308.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0308.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0308_dvp\gc0308.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0309_dvp\gc0309.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0309.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0309_dvp\gc0309.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0310_spi\gc0310.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0310.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0310_spi\gc0310.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0312_dvp\gc0312.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0312.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0312_dvp\gc0312.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0328_dvp\gc0328.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0328.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0328_dvp\gc0328.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0329_dvp\gc0329.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gc0329.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"os/os_api.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc0329_dvp\gc0329.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc032a_dvp\gc032a.c
+	"device/iic.h"
+	"asm/isp_dev.h"
+	"gc032a.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc032a_dvp\gc032a.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc2035_dvp\gc2035.c
+	"asm/iic.h"
+	"asm/isc.h"
+	"asm/isp_dev.h"
+	"gc2035.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc2035_dvp\gc2035.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc2145_dvp\gc2145.c
+	"asm/iic.h"
+	"asm/isc.h"
+	"asm/isp_dev.h"
+	"gc2145.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\gc2145_dvp\gc2145.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\h7375s\h7375s.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"h7375s.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\h7375s\h7375s.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\ov7670_dvp\ov7670.c
+	"asm/isp_dev.h"
+	"ov7670.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\ov7670_dvp\ov7670.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\pr2000k\pr2000k.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"asm/isc.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\xc7011_dvp\xc7011.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"xc7011.h"
+	"system/timer.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+
+1774430128 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\camera\xc7011_dvp\xc7011.h
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\config\log_config\app_config.c
+	"system/includes.h"
+	"app_config.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\config\log_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\config\log_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\config\log_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\update_loader_download.h
+	"typedef.h"
+	"system/task.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\config\user_cfg.c
+	"app_config.h"
+	"fs/fs.h"
+	"system/includes.h"
+	"syscfg/syscfg_id.h"
+	"asm/crc16.h"
+	"asm/sfc_norflash_api.h"
+	"server/audio_dev.h"
+	"wifi/wifi_connect.h"
+	"device/gpio.h"
+	"device/uart.h"
+	"product_main.h"
+	"debug.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\syscfg\syscfg_id.h
+
+1774430168 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\wifi\wifi_connect.h
+	"generic/typedef.h"
+	"wifi_def.h"
+
+1774430168 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\wifi\wifi_def.h
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\product_main.h
+	"app_config.h"
+	"system/includes.h"
+	"json_c/json.h"
+	"json_c/json_object.h"
+	"json_c/json_tokener.h"
+	"usb_std_class_def.h"
+	"ioctl_cmds.h"
+	"wifi/wifi_connect.h"
+	"lcd_drive.h"
+	"camera.h"
+	"syscfg_id.h"
+	"gpio.h"
+	"fs/fs.h"
+	"lwipopts.h"
+	"event/device_event.h"
+	"event/key_event.h"
+	"datatype.h"
+	"product_port.h"
+	"communication.h"
+	"devices_control.h"
+	"product_net.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json.h
+	"json_debug.h"
+	"linkhash.h"
+	"arraylist.h"
+	"json_util.h"
+	"json_object.h"
+	"json_pointer.h"
+	"json_tokener.h"
+	"json_object_iterator.h"
+	"json_c_version.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_debug.h
+	<stdlib.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\stdlib.h
+	<__config>
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\linkhash.h
+	"json_object.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_object.h
+	<stddef.h>
+	"json_inttypes.h"
+	"printbuf.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_inttypes.h
+	"json_config.h"
+	<inttypes.h>
+	<stdint.h>
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_config.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\inttypes.h
+	<stdint.h>
+	<__config>
+	<stdint.h>
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\printbuf.h
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\arraylist.h
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_util.h
+	"json_object.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_pointer.h
+	"json_object.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_tokener.h
+	<stddef.h>
+	"json_object.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_object_iterator.h
+	<stddef.h>
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\json_c\json_c_version.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\lcd_drive.h
+	"app_config.h"
+	"asm/spi.h"
+	"typedef.h"
+	"asm/port_waked_up.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\lwipopts.h
+	<errno.h>
+	"utils/crypto_toolbox/endian.h"
+	"sys/time.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\errno.h
+	<__config>
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\time.h
+	<_ansi.h>
+	<sys/cdefs.h>
+	<sys/_timeval.h>
+	<sys/types.h>
+	<sys/timespec.h>
+	<sys/select.h>
+	<time.h>
+	<sys/cdefs.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\_timeval.h
+	<machine/types.h>
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\datatype.h
+	"typedef.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\product_port.h
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\communication.h
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\devices_control.h
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\includes\product_net.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\debug\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1774430128 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\debug\debug_user.c
+	"app_config.h"
+	"typedef.h"
+	"syscfg/syscfg_id.h"
+	"os/os_api.h"
+	"spinlock.h"
+	"wifi/wifi_connect.h"
+	"device/device.h"
+	"http/http_cli.h"
+	"json_c/json_object.h"
+	"system/includes.h"
+	"os/os_api.h"
+	"storage_device.h"
+	"system/init.h"
+	"fs/fs.h"
+	"os/os_api.h"
+	"system/init.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\http\http_cli.h
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\storage_device.h
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\iic\iic.c
+	"device/iic.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\iic\software_iic.c
+	"system/init.h"
+	"device/device.h"
+	"device/iic.h"
+	"device/gpio.h"
+	"asm/cpu.h"
+	"asm/gpio.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\flfft_core_pi32v2.c
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\jl_fft.c
+	"system/includes.h"
+	"app_config.h"
+	"fftvec_math_drv.h"
+	"_kiss_fft_guts.h"
+	"os/os_api.h"
+	"init.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\fftvec_math_drv.h
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\_kiss_fft_guts.h
+	"kiss_fft.h"
+	"kiss_fft_log.h"
+	<limits.h>
+	<stdint.h>
+	"jlsp_math.h"
+	<alloca.h>
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\kiss_fft.h
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<xmmintrin.h>
+	<stdint.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\math.h
+	<__config>
+	<stdlib.h>
+	<type_traits>
+	<limits>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\type_traits
+	<__config>
+	<cstddef>
+	<version>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\cstddef
+	<__config>
+	<version>
+	<__nullptr>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\version
+	<__config>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\limits
+	<__config>
+	<type_traits>
+	"__support/win32/limits_msvc_win32.h"
+	"__support/ibm/limits.h"
+	<__undef_macros>
+	<version>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\__support\win32\limits_msvc_win32.h
+	<limits.h>
+	<float.h>
+	<math.h>
+	<ymath.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\float.h
+	<__config>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\__support\ibm\limits.h
+	<math.h>
+	<math.h>
+	<float.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\__undef_macros
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\kiss_fft_log.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\alloca.h
+	"_ansi.h"
+	<sys/reent.h>
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\jl_math.c
+	"generic/typedef.h"
+	"app_config.h"
+	"nn_function_vec.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\nn_function_vec.h
+	"stdint.h"
+	"includes.h"
+	"fftvec_math_drv.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key/key_driver.h"
+	"key/adkey.h"
+	"key/iokey.h"
+	"key/irkey.h"
+	"key/slidekey.h"
+	"key/touch_key.h"
+	"key/ctmu_key.h"
+	"key/rdec_key.h"
+	"key/tent600_key.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\adkey.h
+	"generic/typedef.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\iokey.h
+	"generic/typedef.h"
+	"device/device.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\irkey.h
+	"generic/typedef.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\slidekey.h
+	"generic/typedef.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\rdec_key.h
+	"generic/typedef.h"
+	"asm/rdec.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\key\tent600_key.h
+	"generic/typedef.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\jl_math\nn_function_vec.c
+	"nn_function_vec.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\key\adkey.c
+	"key/key_driver.h"
+	"key/adkey.h"
+	"device/gpio.h"
+	"asm/adc_api.h"
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\key\iokey.c
+	"key/key_driver.h"
+	"key/iokey.h"
+	"device/gpio.h"
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\key\key_driver.c
+	"event/key_event.h"
+	"system/init.h"
+	"system/timer.h"
+	"key/key_driver.h"
+	"key/iokey.h"
+	"key/adkey.h"
+	"key/slidekey.h"
+	"key/irkey.h"
+	"key/touch_key.h"
+	"key/rdec_key.h"
+	"key/ctmu_key.h"
+	"key/tent600_key.h"
+	"app_config.h"
+	"asm/power_interface.h"
+	"tone_player.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\assign_macaddr.c
+	"os/os_api.h"
+	"device/device.h"
+	"wifi/wifi_connect.h"
+	"json_c/json.h"
+	"json_c/json_tokener.h"
+	"lwip.h"
+	"http/http_cli.h"
+	"app_config.h"
+	"system/database.h"
+	"system/init.h"
+	"boot.h"
+	"asm/sfc_norflash_api.h"
+	"asm/crc16.h"
+	"syscfg/syscfg_id.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\lwip.h
+	"lwip/netif.h"
+	"lwip/prot/ethernet.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\netif.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"lwip/ip_addr.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/stats.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\opt.h
+	"lwipopts_sfc.h"
+	"lwipopts_bt.h"
+	"lwipopts.h"
+	"lwip/debug.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\lwipopts_sfc.h
+	<errno.h>
+	"utils/crypto_toolbox/endian.h"
+	"sys/time.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\lwipopts_bt.h
+	<errno.h>
+	"sys/time.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\debug.h
+	"lwip/arch.h"
+	"lwip/opt.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\arch.h
+	"arch/cc.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdint.h>
+	<inttypes.h>
+	<limits.h>
+	<unistd.h>
+	<ctype.h>
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\arch\cc.h
+	"arch/cpu.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\arch\cpu.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\stdio.h
+	<__config>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\unistd.h
+	<sys/unistd.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\sys\unistd.h
+	<_ansi.h>
+	<sys/cdefs.h>
+	<sys/types.h>
+	<sys/_types.h>
+	<stddef.h>
+	<getopt.h>
+	<sys/features.h>
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\newlib\include\getopt.h
+	<_ansi.h>
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\c++\include\ctype.h
+	<__config>
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\err.h
+	"lwip/opt.h"
+	"lwip/arch.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip_addr.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/ip4_addr.h"
+	"lwip/ip6_addr.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\def.h
+	"lwip/arch.h"
+	"lwip/opt.h"
+	"arch/perf.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\port\arch\perf.h
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip4_addr.h
+	"lwip/opt.h"
+	"lwip/def.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip6_addr.h
+	"lwip/opt.h"
+	"def.h"
+	"lwip/ip6_zone.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip6_zone.h
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\pbuf.h
+	"lwip/opt.h"
+	"lwip/err.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\stats.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\mem.h
+	"lwip/opt.h"
+	"lwip/arch.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\memp.h
+	"lwip/opt.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_priv.h"
+	"lwip/stats.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\priv\memp_std.h
+	"lwippools.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\priv\memp_priv.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/priv/mem_priv.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_std.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\priv\mem_priv.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\ethernet.h
+	"lwip/arch.h"
+	"lwip/prot/ieee.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\ieee.h
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\database.h
+	"generic/typedef.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\config_network.c
+	"wifi/wifi_connect.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"os/os_api.h"
+	"system/init.h"
+	"lwip.h"
+	"device/device.h"
+	"system/app_core.h"
+	"server/server_core.h"
+	"system/timer.h"
+	"asm/debug.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"http/http_cli.h"
+	"system/timer.h"
+	"database.h"
+	"json_c/json_tokener.h"
+	"voiceprint_cfg.h"
+	"server/net_server.h"
+	<time.h>
+	"event/net_event.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\sockets.h
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/err.h"
+	"lwip/inet.h"
+	"lwip/errno.h"
+	<string.h>
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\inet.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6_addr.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\errno.h
+	"lwip/opt.h"
+	<errno.h>
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\netdb.h
+	"lwip/opt.h"
+	"lwip/arch.h"
+	"lwip/inet.h"
+	"lwip/sockets.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\voiceprint_cfg.h
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\net_server.h
+	"fs/fs.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\net_event.h
+	"event/event.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\iperf_test.c
+	<stdlib.h>
+	"app_config.h"
+	"os/os_api.h"
+	"lwip/sockets.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\platform_cfg.c
+	"app_config.h"
+	"system/init.h"
+	"generic/typedef.h"
+	"syscfg/syscfg_id.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\client.c
+	"client.h"
+	"system/includes.h"
+	"btstack/avctp_user.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+	"syscfg/syscfg_id.h"
+	"json_c/json_tokener.h"
+	"fs/fs.h"
+	"math.h"
+	<stdlib.h>
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\include\client.h
+	"app_config.h"
+	"wbcp.h"
+	"fsm.h"
+	"versions.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\include\wbcp.h
+	"typedef.h"
+	"asm/crc16.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\include\fsm.h
+	<stdint.h>
+	<stddef.h>
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\include\versions.h
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\avctp_user.h
+	"typedef.h"
+	"btstack_typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\btstack_typedef.h
+	"typedef.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\fsm.c
+	"system/includes.h"
+	"client.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\testbox\wbcp.c
+	"system/includes.h"
+	"wifi/wifi_connect.h"
+	"app_config.h"
+	"device/uart.h"
+	"client.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\voiceprint_cfg.c
+	"app_config.h"
+	"server/audio_server.h"
+	"os/os_api.h"
+	"server/server_core.h"
+	"voiceprint_cfg.h"
+	"MultSine_Control.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\multsine_control.h
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\net\wifi_conf.c
+	<string.h>
+	"generic/typedef.h"
+	"app_config.h"
+	"asm/crc16.h"
+	"asm/gpio.h"
+	"database.h"
+	"syscfg/syscfg_id.h"
+	"asm/sfc_norflash_api.h"
+	"wifi/wifi_connect.h"
+	"lwip.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\communication.c
+	"product_main.h"
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"app_config.h"
+	"system/includes.h"
+	"wifi/wifi_connect.h"
+	"lwip.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\app\sock_api\sock_api.h
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"os/os_api.h"
+	"generic/list.h"
+	"string.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\devices_control.c
+	"product_main.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\product_main.c
+	"product_main.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\product_net.c
+	"product_main.h"
+	"sock_api/sock_api.h"
+	"app_config.h"
+	"system/includes.h"
+	"wifi/wifi_connect.h"
+	"lwip.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"asm/usb.h"
+	"uac_stream.h"
+	"board_config.h"
+	"server/video_server.h"
+	"fs/fs.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\video_server.h
+	"server/server_core.h"
+	"server/vpkg_server.h"
+	"system/includes.h"
+	"video/video.h"
+	"fs/fs.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\vpkg_server.h
+	"typedef.h"
+	"list.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\product_test_tool\product_port.c
+	"product_main.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\rf_fcc_tool\bt.c
+	"rf_fcc_main.h"
+	"btstack/avctp_user.h"
+	"btcontroller_modules.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"event/bt_event.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\rf_fcc_tool\include\rf_fcc_main.h
+	"app_config.h"
+	"generic/typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+	"ble/hci_ll.h"
+	"classic/hci_lmp.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\btcontroller_mode.h
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\ble\hci_ll.h
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btctrler\classic\hci_lmp.h
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\bluetooth.h
+	"typedef.h"
+	"le/ble_data_types.h"
+	"le/ble_api.h"
+	"le/le_user.h"
+	"le/att.h"
+	"le/gatt.h"
+	"le/sm.h"
+	"btstack_event.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\ble_data_types.h
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\ble_api.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\le_user.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+	"ble_api.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\att.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\gatt.h
+	"typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\le\sm.h
+	"typedef.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\btstack_event.h
+	"btstack/btstack_typedef.h"
+	<stdint.h>
+	"le/gatt.h"
+
+1774430163 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\btstack\btstack_error.h
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\bt_event.h
+	"event/event.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\rf_fcc_tool\rf_fcc_main.c
+	"rf_fcc_main.h"
+	"asm/gpio.h"
+	"device/uart.h"
+	"list.h"
+	"datatype.h"
+	"wifi/wifi_connect.h"
+	"btcontroller_modules.h"
+	"utils/syscfg/syscfg_id.h"
+	"sock_api/sock_api.h"
+	"gpcnt.h"
+	"gpio.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\rf_fcc_tool\include\datatype.h
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\gpcnt.h
+	"generic/typedef.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\device_mount.c
+	"device/device.h"
+	"event/event.h"
+	"event/device_event.h"
+	"asm/sfc_norflash_api.h"
+	"fs/fs.h"
+	"system/init.h"
+	"sdio/sdmmc.h"
+	"generic/ascii.h"
+	"app_config.h"
+	"usb_stack.h"
+	"msd.h"
+	"device/hid.h"
+	"uac_audio.h"
+	"usb_host.h"
+	"audio.h"
+	"hid.h"
+	"adb.h"
+	"usbnet.h"
+	"usb_host_cdc.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\msd.h
+	"asm/usb.h"
+	"usb_stack.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\hid.h
+	"typedef.h"
+	"asm/usb.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\hid.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\scsi.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\adb.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usbnet.h
+	"device/usb/host/usb_host.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_host_cdc.h
+	"asm/usb.h"
+	"device.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\flash_write_protect.c
+	"system/includes.h"
+	"device/ioctl_cmds.h"
+	"asm/sfc_norflash_api.h"
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\init.c
+	"app_config.h"
+	"asm/includes.h"
+	"system/init.h"
+	"system/task.h"
+	"app_core.h"
+	"irq.h"
+	"version.h"
+	"jiffies.h"
+	"system/timer.h"
+	<unistd.h>
+	"mem_leak_test.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\mem_leak_test.h
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\power_manage.c
+	"system/timer.h"
+	"asm/adc_api.h"
+	"asm/power_interface.h"
+	"app_power_manage.h"
+	"event/device_event.h"
+	"syscfg/syscfg_id.h"
+	"app_config.h"
+	"debug.h"
+
+1774430156 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\app_power_manage.h
+	"generic/typedef.h"
+	"asm/system_reset_reason.h"
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\sdram_config_save_flash.c
+	"system/includes.h"
+	"device/ioctl_cmds.h"
+	"asm/sfc_norflash_api.h"
+	"app_config.h"
+	"boot.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\sdram_re_trim.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/sdram.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\sdram.h
+	"generic/typedef.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\system_reset_reason.c
+	"init.h"
+	"asm/p33.h"
+	"asm/system_reset_reason.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\system_vdd_clock.c
+	"asm/cpu.h"
+	"asm/clock.h"
+	"generic/typedef.h"
+	"asm/p33.h"
+	"asm/power_interface.h"
+	"init.h"
+	"app_config.h"
+
+1774430156 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\system\version.c
+	"system/includes.h"
+	"generic/log.h"
+	"app_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\font\fontinit.c
+	"font/font_all.h"
+	"font/language_list.h"
+	"app_config.h"
+	"res_config.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\font\font_all.h
+	"generic/typedef.h"
+	"font/font_sdfs.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\font\font_sdfs.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\font\language_list.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\res_config.h
+	"app_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\gif_api.c
+	"GUI_GIF_Private.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+	"server/video_dec_server.h"
+	"sys_common.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\gui_gif_private.h
+	"system/includes.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\lcd_config.h
+	"app_config.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\video_dec_server.h
+	"server/server_core.h"
+	"fs/fs.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\system\sys_common.h
+	"asm/clock.h"
+	"generic/jiffies.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\gui_gif.c
+	<stdlib.h>
+	<string.h>
+	"GUI_GIF_Private.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd\lcd_ui_api.c
+	"app_config.h"
+	"ui_api.h"
+	"ui/ui.h"
+	"res/mem_var.h"
+	"typedef.h"
+	"system/includes.h"
+	"btstack/avctp_user.h"
+	"event/touch_event.h"
+	"res_config.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\ui_api.h
+	"app_config.h"
+	"lcd_drive.h"
+	"ui/ui.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui.h
+	"window.h"
+	"ui_button.h"
+	"ui_grid.h"
+	"ui_time.h"
+	"ui_camera.h"
+	"ui_pic.h"
+	"ui_text.h"
+	"ui_battery.h"
+	"ui_browser.h"
+	"ui_slider.h"
+	"ui_slider_vert.h"
+	"ui_number.h"
+	"ui_watch.h"
+	"ui_progress.h"
+	"ui_progress_multi.h"
+	"ui_rotate.h"
+	<stdarg.h>
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\window.h
+	"ui/layer.h"
+	"ui/ui_core.h"
+	"ui/control.h"
+	"list.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\layer.h
+	"ui/layout.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\layout.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_core.h
+	"typedef.h"
+	"rect.h"
+	"event/event.h"
+	"event/key_event.h"
+	"fs/fs.h"
+	"res/resfile.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\res\resfile.h
+	"typedef.h"
+	"fs/fs.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\control.h
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_button.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_grid.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_time.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\p.h
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_camera.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_pic.h
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_text.h
+	"ui/ui_core.h"
+	"ui/control.h"
+	"font/font_all.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_battery.h
+	"ui/control.h"
+	"list.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_browser.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_slider.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_slider_vert.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_number.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_watch.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_progress.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_progress_multi.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_rotate.h
+	"rect.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\res\mem_var.h
+	"typedef.h"
+	"generic/list.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\event\touch_event.h
+	"event/event.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_480x272_8bits.c
+	"app_config.h"
+	"generic/typedef.h"
+	"asm/WL82_imd.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+	"gpio.h"
+	"yuv_to_rgb.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\wl82_imd.h
+	"typedef.h"
+	"asm/cpu.h"
+	"os/os_api.h"
+	"device/device.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\yuv_to_rgb.h
+	"generic/typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_data_driver.c
+	"system/includes.h"
+	"asm/port_waked_up.h"
+	"yuv_to_rgb.h"
+	"yuv_soft_scalling.h"
+	"lcd_data_driver.h"
+	"app_config.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\yuv_soft_scalling.h
+	"generic/typedef.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\lcd_data_driver.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_drive.c
+	"app_config.h"
+	"ui_api.h"
+	"system/includes.h"
+	"device/device.h"
+	"asm/pap.h"
+	"asm/emi.h"
+	"asm/spi.h"
+	"lcd_data_driver.h"
+	"asm/WL82_imd.h"
+	"lcd_drive.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_hx8357.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_ili9341.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"app_config.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_ili9481.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+	"uart.h"
+	"system/includes.h"
+	"gpio.h"
+	"app_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_ili9488.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+	"gpio.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_st7735s.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"app_config.h"
+	"lcd_drive.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_st7789s.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_st7789v.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\lcd_driver\lcd_tm9486.c
+	"system/includes.h"
+	"typedef.h"
+	"asm/pap.h"
+	"lcd_drive.h"
+	"lcd_config.h"
+	"gpio.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\touch_panel\ft6236.c
+	"system/includes.h"
+	"asm/port_waked_up.h"
+	"typedef.h"
+	"os/os_api.h"
+	"asm/iic.h"
+	"device/iic.h"
+	"device/device.h"
+	"lcd_config.h"
+	"app_config.h"
+	"system/includes.h"
+	"gpio.h"
+	"ui_api.h"
+	"touch_event.h"
+	"sys_common.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\touch_panel\gt911.c
+	"system/includes.h"
+	"asm/port_waked_up.h"
+	"typedef.h"
+	"os/os_api.h"
+	"asm/iic.h"
+	"device/iic.h"
+	"device/device.h"
+	"app_config.h"
+	"system/includes.h"
+	"gpio.h"
+	"ui_api.h"
+	"touch_event.h"
+	"sys_common.h"
+	"lcd_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\ui_action_video.c
+	"ui/ui.h"
+	"ui_api.h"
+	"ui_action_video.h"
+	"server/server_core.h"
+	"os/os_api.h"
+	"system/includes.h"
+	"app_config.h"
+	"storage_device.h"
+	"server/video_dec_server.h"
+	"video/video.h"
+	"yuv_to_rgb.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\include\ui_action_video.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\ui\ui_driver\interface\ui_platform.c
+	"ui/includes.h"
+	"timer.h"
+	"asm/crc16.h"
+	"lcd_drive.h"
+	"ascii.h"
+	"font/font_textout.h"
+	"res/rle.h"
+	"res/resfile.h"
+	"res/mem_var.h"
+	"res_config.h"
+	"app_config.h"
+	"fs/fs.h"
+	"ui/ui_circle.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\includes.h
+	"ui/ui.h"
+	"res/resfile.h"
+	"res/font_ascii.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\res\font_ascii.h
+	"typedef.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\font\font_textout.h
+	"generic/typedef.h"
+	"font/font_all.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\res\rle.h
+	"system/includes.h"
+
+1774430170 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\utils\ui\ui\ui_circle.h
+	"typedef.h"
+	"generic/rect.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\update\fs_update.c
+	"system/includes.h"
+	"app_config.h"
+	"update/update.h"
+	"fs/fs.h"
+	"update/update_loader_download.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\update.h
+	"typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\update\http_update.c
+	"system/includes.h"
+	"app_config.h"
+	"update/update.h"
+	"fs/fs.h"
+	"update/update_loader_download.h"
+	"update/net_update.h"
+	"http/http_cli.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\net_update.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\update\net_single_backup_update.c
+	"system/includes.h"
+	"app_config.h"
+	"update/update.h"
+	"fs/fs.h"
+	"syscfg/syscfg_id.h"
+	"update/update_loader_download.h"
+	"generic/errno-base.h"
+	"lwip/ip4_addr.h"
+	"wifi/wifi_connect.h"
+	"lwip/tcp.h"
+	"lwip/sockets.h"
+	"lwip/inet.h"
+	"lwip/netdb.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\tcp.h
+	"lwip/opt.h"
+	"lwip/tcpbase.h"
+	"lwip/mem.h"
+	"lwip/pbuf.h"
+	"lwip/ip.h"
+	"lwip/icmp.h"
+	"lwip/err.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\tcpbase.h
+	"lwip/opt.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+	"lwip/netif.h"
+	"lwip/ip4.h"
+	"lwip/ip6.h"
+	"lwip/prot/ip.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip4.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/ip4_addr.h"
+	"lwip/err.h"
+	"lwip/netif.h"
+	"lwip/prot/ip4.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\ip4.h
+	"lwip/arch.h"
+	"lwip/ip4_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\ip6.h
+	"lwip/opt.h"
+	"lwip/ip6_addr.h"
+	"lwip/prot/ip6.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/err.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\ip6.h
+	"lwip/arch.h"
+	"lwip/ip6_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\ip.h
+	"lwip/arch.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\icmp.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/prot/icmp.h"
+	"lwip/icmp6.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\icmp.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\icmp6.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+	"lwip/prot/icmp6.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\prot\icmp6.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\update\net_update.c
+	"system/includes.h"
+	"system/task.h"
+	"app_config.h"
+	"net_update.h"
+	"update/update_loader_download.h"
+	"dual_bank_updata_api.h"
+	"generic/errno-base.h"
+	"update.h"
+	"timer.h"
+	"fs/fs.h"
+	"os/os_api.h"
+	"device/device.h"
+	"asm/includes.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\dual_bank_updata_api.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\update\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"cpu.h"
+	"syscfg_id.h"
+	"btcontroller_modules.h"
+	"system/includes.h"
+	"uart_update.h"
+	"dual_bank_updata_api.h"
+	"btstack/avctp_user.h"
+	"asm/power_interface.h"
+	"ui/ui_api.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+	"system/debug.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\update\uart_update.h
+	"typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\cdc.c
+	"usb/device/usb_stack.h"
+	"usb/usb_config.h"
+	"usb/device/cdc.h"
+	"app_config.h"
+	"os/os_api.h"
+	"cdc_defs.h"
+	"debug.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_config.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/device/usb_stack.h"
+	"usb/host/usb_host.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\cdc.h
+	"usb/device/usb_stack.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\cdc_defs.h
+	"typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\descriptor.c
+	"usb/device/usb_stack.h"
+	"usb/device/descriptor.h"
+	"usb/device/uac_audio.h"
+	"app_config.h"
+	"debug.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\descriptor.h
+	"asm/usb.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\hid.c
+	"os/os_api.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"app_config.h"
+	"circular_buf.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\msd.c
+	"system/includes.h"
+	"usb/device/usb_stack.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb_config.h"
+	"device/device.h"
+	"app_config.h"
+	"dev_manager.h"
+	"apple_dock/iAP.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\msd_upgrade.c
+	"system/includes.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb_config.h"
+	"app_config.h"
+	"cpu.h"
+	"asm/debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\printer.c
+	"usb/device/usb_stack.h"
+	"usb/usb_config.h"
+	"usb/device/cdc.h"
+	"app_config.h"
+	"os/os_api.h"
+	"printer.h"
+	"debug.h"
+	"event/device_event.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\printer.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\ram_disk_circle.c
+	"os/os_api.h"
+	"spinlock.h"
+	"device/device.h"
+	"app_config.h"
+	"usb/usb_phy.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\ram_disk_update.c
+	"app_config.h"
+	"system/includes.h"
+	"system/task.h"
+	"net_update.h"
+	"update/update_loader_download.h"
+	"dual_bank_updata_api.h"
+	"generic/errno-base.h"
+	"update.h"
+	"timer.h"
+	"fs/fs.h"
+	"os/os_api.h"
+	"device/device.h"
+	"system/task.h"
+	"asm/crc16.h"
+	"asm/efuse.h"
+	"dual_bank_updata_api.h"
+	"asm/wdt.h"
+	"generic/log.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\task_pc.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"os/os_api.h"
+	"event/device_event.h"
+	"sdio/sdmmc.h"
+	"app_task.h"
+	"app_charge.h"
+	"asm/charge.h"
+	"usb/usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb/device/msd.h"
+	"usb/device/cdc.h"
+	"dev_multiplex_api.h"
+	"apple_dock/iAP.h"
+	"debug.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\charge.h
+	"typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\uac.c
+	"system/includes.h"
+	"usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/uac_audio.h"
+	"app_config.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\uac2.c
+	"system/includes.h"
+	"usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/uac_audio.h"
+	"usb/device/uac_audio_v2.h"
+	"uac_stream.h"
+	"app_config.h"
+	"debug.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\usb\device\uac_audio_v2.h
+	"typedef.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\uac_stream.c
+	"app_config.h"
+	"system/includes.h"
+	"usb/usb_config.h"
+	"usb/device/usb_stack.h"
+	"event/device_event.h"
+	"usb/device/uac_audio.h"
+	"uac_stream.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\usb_device.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/uac_audio.h"
+	"usb/device/cdc.h"
+	"usb/device/slave_uvc.h"
+	"usb/device/printer.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\slave_uvc.h
+	"host/uvc.h"
+	"asm/usb.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\include\host\uvc.h
+	"typedef.h"
+	"asm/usb.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\user_setup.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/uac_audio.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"apple_dock/iAP.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\device\uvc.c
+	"system/includes.h"
+	"device/usb_stack.h"
+	"usb_config.h"
+	"os/os_api.h"
+	"app_config.h"
+	"slave_uvc.h"
+	"video/video_ioctl.h"
+	"video/video.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\adb.c
+	"asm/includes.h"
+	"device/ioctl_cmds.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"adb.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+	"adb_rsa_key.c"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_ctrl_transfer.h
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"device/device.h"
+	"usb_config.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\adb_rsa_key.c
+	"typedef.h"
+	"app_config.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\aoa.c
+	"includes.h"
+	"app_config.h"
+	"usb_config.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"device_drive.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"usb_storage.h"
+	"adb.h"
+	"aoa.h"
+	"usb_hid_keys.h"
+	"gamebox.h"
+	"debug.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_storage.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\aoa.h
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_hid_keys.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\audio.c
+	"app_config.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"generic/includes.h"
+	"system/init.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"audio.h"
+	"usb_config.h"
+	"event/device_event.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\hid.c
+	"app_config.h"
+	"system/timer.h"
+	"device_drive.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"hid.h"
+	"usb_config.h"
+	"usb_hid_keys.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_bulk_transfer.c
+	<string.h>
+	"jiffies.h"
+	"usb_config.h"
+	"usb_bulk_transfer.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"app_config.h"
+	"device_drive.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_ctrl_transfer.c
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"app_config.h"
+	"device_drive.h"
+	"gpio.h"
+	"usb/scsi.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_host.c
+	"includes.h"
+	"init.h"
+	"app_config.h"
+	"device_drive.h"
+	"event/device_event.h"
+	"usb_config.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"adb.h"
+	"aoa.h"
+	"host_uvc.h"
+	"hid.h"
+	"audio.h"
+	"usbnet.h"
+	"usb_host_cdc.h"
+	"apple_dock/iAP.h"
+	"apple_mfi.h"
+	"debug.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\include\host\host_uvc.h
+	"asm/usb.h"
+	"uvc.h"
+	"asm/uvc_device.h"
+
+1774430157 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\apple_mfi.h
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_host_cdc.c
+	"device/ioctl_cmds.h"
+	"device_drive.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"cdc_defs.h"
+	"usb_host_cdc.h"
+	"usb_host.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_storage.c
+	"asm/includes.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"device_drive.h"
+	"usb_storage.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+	"event/device_event.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usb_video.c
+	<string.h>
+	"usb_ctrl_transfer.h"
+	"usb_host.h"
+	"usb_ctrl_transfer.h"
+	"host_uvc.h"
+	"usb_stack.h"
+	"asm/device_drive.h"
+	"app_config.h"
+	"usb/host/usb_host.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\usbnet.c
+	"app_config.h"
+	"usb_host.h"
+	"usbnet.h"
+	"cdc_defs.h"
+	"device_drive.h"
+	"host/usb_ctrl_transfer.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\host\uvc_host.c
+	"device/usb_stack.h"
+	"asm/dma.h"
+	"asm/uvc_device.h"
+	"usb_config.h"
+	"host_uvc.h"
+	"video/video_ioctl.h"
+	"video/video.h"
+	"video/videobuf.h"
+	"video/video_ppbuf.h"
+	"os/os_api.h"
+	"os/os_type.h"
+	"app_config.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\videobuf.h
+	"video/video.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\video_ppbuf.h
+	"video/video_ioctl.h"
+	"generic/atomic.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"system/timer.h"
+	"app_config.h"
+	"lbuf.h"
+	"adapter_usb_hid.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_epbuf_manager.c
+	"usb_config.h"
+	"app_config.h"
+	"lbuf.h"
+	"system/init.h"
+	"host_uvc.h"
+	"debug.h"
+
+1774430157 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\common\usb\usb_host_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"system/spinlock.h"
+	"app_config.h"
+	"debug.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\app_database.c
+	"system/includes.h"
+	"app_database.h"
+	"app_config.h"
+	"generic/typedef.h"
+	"syscfg/syscfg_id.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\app_database.h
+
+1776128142 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\app_main.c
+	"system/includes.h"
+	"action.h"
+	"app_core.h"
+	"event/key_event.h"
+	"event/device_event.h"
+	"app_config.h"
+	"storage_device.h"
+	"generic/log.h"
+	"device/gpio.h"
+	"asm/p33.h"
+	"os/os_api.h"
+	"wifi/sd_audio_play.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\action.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\bt656_camera_get_yuv.c
+	"server/video_server.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"asm/isc.h"
+	"app_database.h"
+	"storage_device.h"
+	"os/os_api.h"
+	"camera.h"
+	"yuv_soft_scalling.h"
+
+1774430164 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\cpu\wl82\asm\osd.h
+	"video/video.h"
+	"system/sys_time.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\get_yuv_data.c
+	"system/includes.h"
+	"os/os_api.h"
+	"app_config.h"
+	"get_yuv_data.h"
+	"asm/isc.h"
+	"video_ioctl.h"
+	"device.h"
+	"video.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\get_yuv_data.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\jpeg2yuv.c
+	"asm/jpeg_codec.h"
+	"asm/hwi.h"
+	"asm/debug.h"
+	"system/includes.h"
+	"generic/lbuf.h"
+	"fs/fs.h"
+	"os/os_api.h"
+	"video_ioctl.h"
+	"video.h"
+	"yuv_to_rgb.h"
+	"yuv_soft_scalling.h"
+	"app_config.h"
+	"lcd_data_driver.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\production_test.c
+	"system/includes.h"
+	"action.h"
+	"app_core.h"
+	"event/key_event.h"
+	"event/device_event.h"
+	"app_config.h"
+	"storage_device.h"
+	"generic/log.h"
+	"os/os_api.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\simple_avi_unpkg.c
+	"generic/typedef.h"
+	"fs/fs.h"
+	"simple_avi_unpkg.h"
+	"os/os_api.h"
+	"app_config.h"
+	"asm/jpeg_codec.h"
+	"system/includes.h"
+	"os/os_api.h"
+	"yuv_to_rgb.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\simple_avi_unpkg.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\spi_video.c
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"asm/isc.h"
+	"asm/spi.h"
+	"app_database.h"
+	"storage_device.h"
+	"server/ctp_server.h"
+	"os/os_api.h"
+	"camera.h"
+	"stream_protocol.h"
+	"yuv_soft_scalling.h"
+	"net_server.h"
+	"server/net_server.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\ctp_server.h
+	<stdarg.h>
+	"ctp.h"
+	"cdp.h"
+	"generic/typedef.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\app\ctp\ctp.h
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"lwip.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\app\cdp\cdp.h
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"lwip.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\stream_protocol.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\camera_demo.c
+	"app_config.h"
+	"device/device.h"
+	"storage_device.h"
+	"server/video_dec_server.h"
+	"system/includes.h"
+	"lcd_drive.h"
+	"sys_common.h"
+	"yuv_soft_scalling.h"
+	"asm/jpeg_codec.h"
+	"get_yuv_data.h"
+	"lcd_config.h"
+	"asm/includes.h"
+	"ui_demo.h"
+	"video/camera_effect.h"
+	"asm/jpeg_encoder.h"
+	"lcd_data_driver.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\ui_demo.h
+	"ui/ui.h"
+	"ui_api.h"
+	"video_rec.h"
+	"yuv_soft_scalling.h"
+	"event/key_event.h"
+	"net_video_rec.h"
+	"asm/jpeg_codec.h"
+	"ui_demo.h"
+	"action.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\video_rec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\net_video_rec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"video_rec.h"
+	"net_server.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\driver\device\video\camera_effect.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\camera_lcd_only_show_demo.c
+	"app_config.h"
+	"storage_device.h"
+	"os/os_api.h"
+	"generic/lbuf.h"
+	"fs/fs.h"
+	"yuv_soft_scalling.h"
+	"yuv_to_rgb.h"
+	"video_rec.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\key_demo.c
+	"app_config.h"
+	"device/device.h"
+	"event/key_event.h"
+	"asm/gpio.h"
+	"system/includes.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\mp3_play.c
+	"app_config.h"
+	"device/device.h"
+	"system/includes.h"
+	"server/audio_server.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\qr_code.c
+	"app_config.h"
+	"device/device.h"
+	"server/video_dec_server.h"
+	"system/includes.h"
+	"lcd_drive.h"
+	"sys_common.h"
+	"yuv_soft_scalling.h"
+	"asm/jpeg_codec.h"
+	"get_yuv_data.h"
+	"lcd_config.h"
+	"asm/jpeg_codec.h"
+	"qrcode/qrcode.h"
+	"json_c/json_tokener.h"
+	"mbedtls/base64.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\qrcode\qrcode.h
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\mbedtls\base64.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\mbedtls\build_info.h
+	"mbedtls/mbedtls_config.h"
+	"mbedtls/config_psa.h"
+	"mbedtls/check_config.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\mbedtls\mbedtls_config.h
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\mbedtls\config_psa.h
+	"psa/crypto_config.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\psa\crypto_config.h
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\mbedtls_3_4_0\mbedtls\check_config.h
+	<limits.h>
+	<stdint.h>
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\sd_play_jpg.c
+	"ui/ui.h"
+	"ui_api.h"
+	"system/timer.h"
+	"server/server_core.h"
+	"os/os_api.h"
+	"asm/gpio.h"
+	"system/includes.h"
+	"server/audio_server.h"
+	"storage_device.h"
+	"app_config.h"
+	"font/font_textout.h"
+	"ui/includes.h"
+	"ui_action_video.h"
+	"font/font_all.h"
+	"font/language_list.h"
+	"ename.h"
+	"asm/rtc.h"
+	"lcd_drive.h"
+	"video_rec.h"
+	"yuv_soft_scalling.h"
+	"event/key_event.h"
+	"net_video_rec.h"
+	"asm/jpeg_codec.h"
+	"res_config.h"
+	"lcd_config.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\ename.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\ui_camera_demo\ui_demo.c
+	"app_config.h"
+	"ui/ui.h"
+	"ui_api.h"
+	"system/timer.h"
+	"server/server_core.h"
+	"os/os_api.h"
+	"asm/gpio.h"
+	"system/includes.h"
+	"server/audio_server.h"
+	"storage_device.h"
+	"font/font_textout.h"
+	"ui/includes.h"
+	"ui_action_video.h"
+	"font/font_all.h"
+	"font/language_list.h"
+	"ename.h"
+	"asm/rtc.h"
+	"lcd_drive.h"
+	"video_rec.h"
+	"yuv_soft_scalling.h"
+	"event/key_event.h"
+	"net_video_rec.h"
+	"asm/jpeg_codec.h"
+	"ui_demo.h"
+	"action.h"
+	"video/camera_effect.h"
+	"lcd_data_driver.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\video_rec.c
+	"system/includes.h"
+	"server/video_server.h"
+	"event/key_event.h"
+	"event/device_event.h"
+	"video_rec.h"
+	"video_system.h"
+	"action.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"app_database.h"
+	"storage_device.h"
+	"ui_demo.h"
+	"net_video_rec.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\video_system.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\ctp_cmd.c
+	"net_video_rec.h"
+	"video_rec.h"
+	"server/ctp_server.h"
+	"server/net_server.h"
+	"json_c/json.h"
+	"json_c/json_tokener.h"
+	"server/server_core.h"
+	"system/app_core.h"
+	"action.h"
+	"storage_device.h"
+	"app_config.h"
+	"fs/fs.h"
+	"app_database.h"
+	"http/http_server.h"
+	"server/net_server.h"
+	"ctp.h"
+	"cdp.h"
+	"os/os_api.h"
+	"action.h"
+	"wifi/wifi_connect.h"
+	"time.h"
+	"event/key_event.h"
+	"video_rec.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\http\http_server.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\ftpd_vfs_reg.c
+	"app_config.h"
+	"ftpserver/stupid-ftpd.h"
+	"net_update.h"
+
+1774430165 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\ftpserver\stupid-ftpd.h
+	<lwip/netdb.h>
+	<lwip/sockets.h>
+	"os/os_api.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\media_file_list.c
+	"app_config.h"
+	"vunpkg_server.h"
+	"system/includes.h"
+	"os/os_api.h"
+	"server/net_server.h"
+	"server/ctp_server.h"
+	"storage_device.h"
+	"server/simple_mov_unpkg.h"
+	"time.h"
+	"json_c/json.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\vunpkg_server.h
+	"typedef.h"
+	"list.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\simple_mov_unpkg.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1775825029 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\net_video_rec.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"net_video_rec.h"
+	"strm_video_rec.h"
+	"action.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"app_database.h"
+	"storage_device.h"
+	"server/ctp_server.h"
+	"os/os_api.h"
+	"net_server.h"
+	"server/net_server.h"
+	"stream_protocol.h"
+	"event/device_event.h"
+	"event/net_event.h"
+	"event/key_event.h"
+
+1774430169 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\server\video_engine_server.h
+	"typedef.h"
+	"list.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\strm_video_rec.h
+	"system/includes.h"
+	"server/ctp_server.h"
+	"os/os_api.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/rt_stream_pkg.h"
+	"server/net_server.h"
+	"net_video_rec.h"
+	"streaming_media_server/fenice_config.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\rt_stream_pkg.h
+	"fs/fs.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\streaming_media_server\fenice_config.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\network_mssdp.c
+	"mssdp/mssdp.h"
+	"device/device.h"
+	"camera.h"
+	"fs/fs.h"
+	"app_config.h"
+	"dev_desc.h"
+	"gpio.h"
+	"json_c/json.h"
+	"json_c/json_tokener.h"
+	"event/event.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\app\mssdp\mssdp.h
+	"typedef.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\dev_desc.h
+	"app_config.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\packet.c
+	"packet.h"
+	"app_config.h"
+	"json_c/json.h"
+	"json_c/json_tokener.h"
+
+1774430158 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\include\packet.h
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"server/net_server.h"
+	"app_config.h"
+	"server/server_core.h"
+	"server/ctp_server.h"
+	"simple_mov_unpkg.h"
+	"simple_avi_unpkg.h"
+	"rt_stream_pkg.h"
+	"fs/fs.h"
+	"app_config.h"
+	<time.h>
+	"sys_time.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\rt_talk_net.c
+	"app_config.h"
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"server/rt_stream_pkg.h"
+	"circular_buf.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\rt_talk_voice.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\stream\video_rt_tcp.c
+	"sys_common.h"
+	"server/rt_stream_pkg.h"
+	"lwip.h"
+	"stream_core.h"
+	"sock_api/sock_api.h"
+	"app_config.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\stream_core.h
+	"generic/typedef.h"
+
+1775825283 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\stream\video_rt_udp.c
+	"sys_common.h"
+	"system/spinlock.h"
+	"os/os_api.h"
+	"server/rt_stream_pkg.h"
+	"app_config.h"
+	"lwip.h"
+	"lwip/sockets.h"
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"stream_core.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\stream\video_rt_usr.c
+	"server/rt_stream_pkg.h"
+	"stream_core.h"
+	"sock_api/sock_api.h"
+	"app_config.h"
+
+1775825145 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\stream_protocol.c
+	"sys_common.h"
+	"system/spinlock.h"
+	"os/os_api.h"
+	"app_config.h"
+	"os/os_api.h"
+	"stream_core.h"
+	"asm/uart.h"
+	"server/video_server.h"
+	"rt_stream_pkg.h"
+	"video_buf_config.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\strm_video_rec.c
+	"strm_video_rec.h"
+	"asm/osd.h"
+	"app_config.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\tx_camera_cwf\tx_camera_cwf.c
+	"app_config.h"
+	"device/device.h"
+	"system/includes.h"
+	"sys_common.h"
+	"storage_device.h"
+	"lcd_config.h"
+	"yuv_soft_scalling.h"
+	"get_yuv_data.h"
+	"wifi/wifi_connect.h"
+	"sock_api/sock_api.h"
+	"lwip/sockets.h"
+	"server/rt_stream_pkg.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"server/ctp_server.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\user_video_rec.c
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"asm/isc.h"
+	"app_database.h"
+	"storage_device.h"
+	"server/ctp_server.h"
+	"os/os_api.h"
+	"camera.h"
+	"net_server.h"
+	"server/net_server.h"
+	"stream_protocol.h"
+	"product_main.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\user_video_rec2.c
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"asm/debug.h"
+	"asm/osd.h"
+	"asm/isc.h"
+	"app_database.h"
+	"storage_device.h"
+	"server/ctp_server.h"
+	"os/os_api.h"
+	"camera.h"
+	"net_server.h"
+	"server/net_server.h"
+	"stream_protocol.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\video_playback.c
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"server/net_server.h"
+	"server/server_core.h"
+	"server/ctp_server.h"
+	"server/simple_mov_unpkg.h"
+	"server/rt_stream_pkg.h"
+	"fs/fs.h"
+	"generic/list.h"
+	"packet.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\video_preview.c
+	"app_config.h"
+	"sock_api/sock_api.h"
+	"os/os_api.h"
+	"server/net_server.h"
+	"server/server_core.h"
+	"server/ctp_server.h"
+	"server/rt_stream_pkg.h"
+	"server/simple_mov_unpkg.h"
+	"packet.h"
+	"generic/list.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\wifi_app_task.c
+	"wifi/wifi_connect.h"
+	"lwip/sockets.h"
+	"lwip/netdb.h"
+	"os/os_api.h"
+	"system/init.h"
+	"lwip.h"
+	"dhcp_srv/dhcp_srv.h"
+	"lwip/dns.h"
+	"device/device.h"
+	"system/app_core.h"
+	"server/server_core.h"
+	"action.h"
+	"system/timer.h"
+	"asm/debug.h"
+	"app_config.h"
+	"http/http_cli.h"
+	"system/timer.h"
+	"database.h"
+	"dev_desc.h"
+	"http/http_server.h"
+	"server/ctp_server.h"
+	"server/net_server.h"
+	"video_rt_tcp.h"
+	"ftpserver/stupid-ftpd.h"
+	"streaming_media_server/fenice_config.h"
+	"syscfg/syscfg_id.h"
+	"product_main.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\app\dhcp_srv\dhcp_srv.h
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lwip_2_2_0\lwip\src\include\lwip\dns.h
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+
+1774430167 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\server\video_rt_tcp.h
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\yuv2jpeg_thumbnail.c
+	"asm/jpeg_codec.h"
+	"fs/fs.h"
+	"os/os_api.h"
+	"yuv_soft_scalling.h"
+	"app_config.h"
+
+1774430158 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_dev_kit.c
+	"app_config.h"
+	"app_power_manage.h"
+	"system/includes.h"
+	"device/includes.h"
+	"device/iic.h"
+	"server/audio_dev.h"
+	"asm/includes.h"
+	"key/iokey.h"
+	"key/adkey.h"
+	"key/irkey.h"
+	"key/rdec_key.h"
+	"key/key_driver.h"
+	"event/key_event.h"
+	"otg.h"
+	"usb_host.h"
+	"usb_common_def.h"
+	"usb_storage.h"
+	"asm/uvc_device.h"
+	"usb_host_cdc.h"
+	"lcd_drive.h"
+	"ui_api.h"
+	"lte_module.h"
+	"wifi/wifi_connect.h"
+
+1774430166 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\include_lib\net\lte_module\lte_module.h
+	"generic/typedef.h"
+	"device/device.h"
+
+1774675113 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\board\wl82\board_develop.c
+	"app_config.h"
+	"app_power_manage.h"
+	"system/includes.h"
+	"device/includes.h"
+	"device/iic.h"
+	"server/audio_dev.h"
+	"asm/includes.h"
+	"key/iokey.h"
+	"key/adkey.h"
+	"key/irkey.h"
+	"key/rdec_key.h"
+	"key/key_driver.h"
+	"event/key_event.h"
+	"otg.h"
+	"usb_host.h"
+	"usb_common_def.h"
+	"usb_storage.h"
+	"asm/uvc_device.h"
+	"usb_host_cdc.h"
+	"lcd_drive.h"
+	"ui_api.h"
+	"lte_module.h"
+	"wifi/wifi_connect.h"
+
+1775976590 source:d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\sd_audio_play.c
+	"app_config.h"
+	"device/device.h"
+	"system/includes.h"
+	"server/audio_server.h"
+	"storage_device.h"
+	"wifi/sd_audio_play.h"
+
+1775976590 d:\0embeddedsystem\jielli\fw-ac79_aiot_sdk-release-ac79nn_sdk_v1.2.0\apps\wifi_camera\wifi\sd_audio_play.h
+	"system/includes.h"
+
